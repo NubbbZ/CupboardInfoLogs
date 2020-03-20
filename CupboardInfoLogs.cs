@@ -3,9 +3,9 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-	[Info("CupboardInfoLogs", "NubbbZ", "1.1.0")]
+	[Info("CupboardInfoLogs", "NubbbZ", "1.1.1")]
 	[Description("Logs info about TC when placed!")]
-	class EssentialCupboardLogs : CovalencePlugin
+	class CupboardInfoLogs : CovalencePlugin
 	{
 		#region Hooks
 		void OnEntityBuilt(Planner plan, GameObject go)
